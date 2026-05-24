@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Kids T-Shirt",
+    "description": "Soft cotton t-shirt for kids",
+    "price": 15,
+    "image": "../Images/Kids/kidTShirt.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Kids Hoodie",
+    "description": "Warm and cozy hoodie",
+    "price": 25,
+    "image": "../Images/Kids/kidHoodie.webp"
+  },
+  {
+    "id": 3,
+    "name": "Kids Jeans",
+    "description": "Comfortable denim jeans",
+    "price": 20,
+    "image": "../Images/Kids/kidJeans.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Kids Jacket",
+    "description": "Light winter jacket",
+    "price": 30,
+    "image": "../Images/Kids/kidJacket.jpg"
+  }
+]

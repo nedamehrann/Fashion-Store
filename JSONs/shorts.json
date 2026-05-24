@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Shorts",
+    "description": "Cute Shorts",
+    "price": 50,
+    "image": "../Images/Shorts/short1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Shorts",
+    "description": "Comfortable Shorts",
+    "price": 100,
+    "image": "../Images/Shorts/short2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Shorts",
+    "description": "Comfortable Shorts",
+    "price": 25,
+    "image": "../Images/Shorts/short3.webp"
+  },
+  {
+    "id": 4,
+    "name": "Shorts",
+    "description": "Sport Shorts",
+    "price": 25,
+    "image": "../Images/Shorts/short4.jpg"
+  }
+]

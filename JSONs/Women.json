@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Women Casual Dress",
+    "description": "Soft and comfortable summer dress",
+    "price": 45,
+    "image": "../Images/Women/womanDress.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Elegant Women Shirt",
+    "description": "Perfect for daily style",
+    "price": 30,
+    "image": "../Images/Women/womanTShirt.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Floral Dress",
+    "description": "Beautiful floral design",
+    "price": 55,
+    "image": "../Images/Women/womanFloralDress.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Summer Top",
+    "description": "Light and breathable fabric",
+    "price": 25,
+    "image": "../Images/Women/WomanTop.avif"
+  }
+]

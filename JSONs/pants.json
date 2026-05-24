@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Pants",
+    "description": "Classy Pants",
+    "price": 50,
+    "image": "../Images/Pants/pant1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Pants",
+    "description": "Classy Pants",
+    "price": 100,
+    "image": "../Images/Pants/pant2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Pants",
+    "description": "Comfortable Pant",
+    "price": 25,
+    "image": "../Images/Pants/pant3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Pants",
+    "description": "Comfortable Pant",
+    "price": 25,
+    "image": "../Images/Pants/pant4.jpg"
+  }
+]

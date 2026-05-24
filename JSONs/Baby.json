@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Baby Romper",
+    "description": "Soft cotton romper for babies",
+    "price": 18,
+    "image": "../Images/Babies/babyRomper.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Baby Onesie",
+    "description": "Comfortable daily onesie",
+    "price": 20,
+    "image": "../Images/Babies/babyOnesie.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Baby Jacket",
+    "description": "Warm winter jacket",
+    "price": 28,
+    "image": "../Images/Babies/babyJacket.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Baby Pajama",
+    "description": "Soft sleeping pajama set",
+    "price": 22,
+    "image": "../Images/Babies/babyPajama.jpg"
+  }
+]

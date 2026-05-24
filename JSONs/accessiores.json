@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Hair Clip",
+    "description": "Cute Hair Clip",
+    "price": 10,
+    "image": "../Images/Accessorias/accessiores1.webp"
+  },
+  {
+    "id": 2,
+    "name": "Earrings",
+    "description": "Classy Earrings",
+    "price": 25,
+    "image": "../Images/Accessorias/accessiores2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Earrings",
+    "description": "Classy Earrings",
+    "price": 25,
+    "image": "../Images/Accessorias/accessiores3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Earrings",
+    "description": "Cute Earrings",
+    "price": 25,
+    "image": "../Images/Accessorias/accessiores4.jpg"
+  }
+]

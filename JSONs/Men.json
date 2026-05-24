@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Men T-Shirt",
+    "description": "Comfortable cotton t-shirt",
+    "price": 28,
+    "image": "../Images/Men/manTShirt.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Men Jacket",
+    "description": "Warm winter jacket",
+    "price": 80,
+    "image": "../Images/Men/manJacket.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Classic Shirt",
+    "description": "Formal elegant shirt",
+    "price": 35,
+    "image": "../Images/Men/manClassicShirt.webp"
+  },
+  {
+    "id": 4,
+    "name": "Sport Hoodie",
+    "description": "Perfect for daily sports",
+    "price": 50,
+    "image": "../Images/Men/manHoodie.jpg"
+  }
+]

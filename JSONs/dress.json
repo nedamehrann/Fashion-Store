@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Dress",
+    "description": "Comfortable Cotton Dress",
+    "price": 50,
+    "image": "../Images/Dress/dress1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Dress",
+    "description": "Classy Dress",
+    "price": 200,
+    "image": "../Images/Dress/dress2.webp"
+  },
+  {
+    "id": 3,
+    "name": "Dress",
+    "description": "Classy Dress",
+    "price": 25,
+    "image": "../Images/Dress/dress3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Dress",
+    "description": "Cute Dress",
+    "price": 25,
+    "image": "../Images/Dress/dress4.jpg"
+  }
+]

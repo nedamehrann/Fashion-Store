@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "T-Shirt",
+    "description": "Sport T-Shirts",
+    "price": 50,
+    "image": "../Images/T_Shirts/t-shirt1.webp"
+  },
+  {
+    "id": 2,
+    "name": "T-Shirt",
+    "description": "Comfortable T-Shirts",
+    "price": 100,
+    "image": "../Images/T_Shirts/t-shirt2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "T-Shirt",
+    "description": "Comfortable T-Shirts",
+    "price": 25,
+    "image": "../Images/T_Shirts/t-shirt3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "T-Shirt",
+    "description": "Sport T-Shirts",
+    "price": 25,
+    "image": "../Images/T_Shirts/t-shirt4.jpg"
+  }
+]
