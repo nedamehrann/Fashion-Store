@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fashion Store</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSSs/style.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+      <nav class="navbar">
+        <div class="logo">Fashion<span>Store</span></div>
+
+        <!-- MENU -->
+        <ul class="nav-links" id="navLinks">
+          <li><a href="HTMLs/Women.html">Women</a></li>
+          <li><a href="HTMLs/Men.html">Men</a></li>
+          <li><a href="HTMLs/Kids.html">Kids</a></li>
+          <li><a href="HTMLs/Baby.html">Baby</a></li>
+        </ul>
+
+        <!-- SEARCH -->
+        <div class="search-box">
+          <input type="text" id="searchInput" placeholder="Search..." />
+        </div>
+
+        <div id="modal" class="modal">
+          <div class="modal-content">
+            <p id="modal-text"></p>
+          </div>
+        </div>
+
+        <!-- ICONS -->
+        <div class="nav-icons">
+          <a href="HTMLs/Cart.html"
+            ><i class="fa-solid fa-cart-shopping cart-icon"></i
+          ></a>
+
+          <i
+            class="fa-solid fa-bars menu-icon"
+            id="menuBtn"
+            onclick="openMenu()"
+          ></i>
+
+          <!-- MENU -->
+          <div id="menu" class="menu">
+            <div class="overlay"></div>
+
+            <div class="menu-content">
+              <a href="HTMLs/Women.html">Women</a>
+              <a href="HTMLs/Men.html">Men</a>
+              <a href="HTMLs/Kids.html">Kids</a>
+              <a href="HTMLs/Baby.html">Baby</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section class="hero">
+      <div class="overlay"></div>
+
+      <div class="hero-content">
+        <h1>Discover Your Perfect Style</h1>
+
+        <p>
+          Trendy fashion pieces for women, men, kids, and babies. Designed with
+          comfort, elegance, and everyday style in mind.
+        </p>
+
+        <!-- CATEGORY BUTTONS -->
+        <div class="category-buttons">
+          <a href="HTMLs/Dress.html"><button>Dress</button></a>
+          <a href="HTMLs/Tshirts.html"><button>T-Shirts</button></a>
+          <a href="HTMLs/pants.html"><button>Pants</button></a>
+          <a href="HTMLs/shorts.html"><button>Shorts</button></a>
+          <a href="HTMLs/accessiores.html"><button>Accessories</button></a>
+        </div>
+      </div>
+    </section>
+
+    <!--=================Sale Banner====================-->
+    <section class="sale-banner">
+      <div class="bubbles">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="sale-content">
+        <h2>Up to 50% Off</h2>
+        <p>Special summer sale on all fashion items</p>
+        <button>Shop Sale</button>
+      </div>
+    </section>
+
+    <!-- ================= CONTENT BOXES ================= -->
+
+    <section class="cards-section">
+      <div class="card-box">
+        <section class="back-stock-section">
+          <div class="back-stock-content">
+            <div class="text-side">
+              <span class="small-title">NEW ARRIVAL</span>
+
+              <h1>Back In Stock</h1>
+
+              <p>
+                Your favorite styles are finally back. Discover our most-loved
+                pieces again and refresh your wardrobe with soft colors, comfy
+                fabrics, and timeless designs.
+              </p>
+
+              <a href="#" class="shop-btn"> Explore Collection </a>
+            </div>
+
+            <div class="image-side">
+              <img
+                src="Images/Contents/bookInStockBGImg.avif"
+                alt="Fashion Collection"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="card-box">
+        <section class="new-in-section">
+          <div class="overlay"></div>
+
+          <div class="new-in-content">
+            <span class="new-label"> TRENDING NOW </span>
+
+            <h1>New In</h1>
+
+            <p>
+              Fresh styles just landed ✨ Discover our newest collection filled
+              with soft colors, modern fits, and everyday pieces designed to
+              make your wardrobe feel effortlessly beautiful.
+            </p>
+
+            <a href="#" class="new-btn"> Discover Now </a>
+          </div>
+        </section>
+      </div>
+
+      <div class="card-box">
+        <section class="jeans-section">
+          <div class="jeans-overlay"></div>
+
+          <div class="jeans-content">
+            <h1>Our Jeans Collection</h1>
+
+            <p>
+              Discover timeless denim pieces designed for comfort, confidence,
+              and everyday style. From relaxed fits to modern silhouettes, find
+              your perfect look in our newest jeans collection.
+            </p>
+
+            <a href="#" class="jeans-link"> Explore Collection </a>
+          </div>
+        </section>
+      </div>
+
+      <div class="card-box">
+        <section class="dress-section">
+          <div class="dress-overlay"></div>
+
+          <div class="dress-content">
+            <h1>Dress Collection</h1>
+
+            <p>
+              Elegant silhouettes, soft fabrics, and timeless details crafted to
+              make every moment feel effortlessly beautiful. Explore our latest
+              dress collection designed for comfort, confidence, and modern
+              style.
+            </p>
+
+            <a href="#" class="dress-link"> View Collection </a>
+          </div>
+        </section>
+      </div>
+
+      <div class="card-box">
+        <section class="suit-section">
+          <div class="suit-overlay"></div>
+
+          <div class="suit-content">
+            <h1>Men’s Suit Collection</h1>
+
+            <p>
+              Refined tailoring, modern cuts, and timeless elegance designed for
+              every occasion. Discover sophisticated suits crafted to bring
+              confidence, comfort, and style into your wardrobe.
+            </p>
+
+            <a href="#" class="suit-link"> Explore Collection </a>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!--=================testimonials======================-->
+
+    <section class="testimonials">
+      <h2>What Our Customers Say</h2>
+
+      <div class="testimonial-container">
+        <div class="testimonial">
+          <p>"Amazing quality and super fast delivery. I love it!"</p>
+          <h4>- Sara M.</h4>
+        </div>
+
+        <div class="testimonial">
+          <p>"The clothes are exactly like the pictures. Very satisfied!"</p>
+          <h4>- Eric K.</h4>
+        </div>
+
+        <div class="testimonial">
+          <p>"Great prices and beautiful designs. Highly recommend."</p>
+          <h4>- Neda R.</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="footer-item">
+          <i class="fa-brands fa-instagram"></i>
+          <a href="#">Follow us on Instagram</a>
+        </div>
+
+        <div class="footer-item">
+          <i class="fa-brands fa-facebook"></i>
+          <a href="#">Follow us on Facebook</a>
+        </div>
+
+        <div class="footer-item">
+          <i class="fa-solid fa-envelope"></i>
+          <a href="#">Contact Us</a>
+        </div>
+
+        <div class="footer-item">
+          <i class="fa-solid fa-at"></i>
+          <p>fashionstore@gmail.com</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <a href="#">Privacy Policy</a>
+
+        <a href="#">Manage Cookies</a>
+      </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="JSs/search.js"></script>
+    <script src="JSs/script.js" defer></script>
+  </body>
+</html>
